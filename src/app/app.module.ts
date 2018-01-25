@@ -23,6 +23,8 @@ import { RegisterComponent } from './login/register.component';
 // import { SidebarComponent } from './shared/sidebar/sidebar.component';
 // import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 // import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
+// temporal
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -42,12 +44,14 @@ import { RegisterComponent } from './login/register.component';
     // SidebarComponent,
     // BreadcrumbsComponent,
 
-    RegisterComponent
+    RegisterComponent,
+
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
